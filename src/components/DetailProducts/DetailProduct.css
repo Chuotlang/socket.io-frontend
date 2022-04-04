@@ -1,0 +1,94 @@
+.product_Container{
+    margin-top: 4rem;
+}
+.image_container{
+    width: 100%;
+    height: 40rem;
+}
+.image_container img{
+    width: 100%;
+    height:100%;
+}
+.detail_product_container{
+    width: 100%;
+    font-size: 2rem;
+}
+.button_container{
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.button_container button{
+    width: 20rem;
+    height: 4rem;
+    background-color: #333;
+    color:white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.desciption_container{
+    width: 100%;
+    font-size: 1.4rem;
+    margin:1rem 0;
+}
+.review_container{
+    width: 100%;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.rating{
+    width: 100%;
+}
+.rating i{
+    color:crimson;
+    margin:0.5rem 0;
+    padding-right: 0.3rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.rating .star{
+    position: relative;
+}
+.rating .star-1{
+    position:absolute;
+    top:0;
+    left:0;
+    width: 8.25rem;
+    overflow: hidden;
+}
+.rating_product{
+    width: 10%;
+    margin-top: 10rem;
+    font-size: 2rem;
+    text-align: left;
+}
+.rating_product label{
+    color:grey;
+}
+.rating_product input{
+    display: none;
+}
+.rating_product label{
+    cursor: pointer;
+    float:right;
+}
+.rating_product input:not(:checked) ~ label:hover,
+.rating_product input:not(:checked) ~ label:hover ~ label{
+    color:crimson;
+}
+.rating_product input:checked ~ label{
+    color:crimson;
+}
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

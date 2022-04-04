@@ -1,0 +1,76 @@
+.commentForm{
+    margin-top: 3rem;
+    width: 100%;
+}
+.commentForm p{
+    font-size: 1.5rem;
+    margin: 0;
+}
+.commentForm input{
+    width: 100%;
+    height: 5rem;
+    padding-left: 1rem;
+    font-size: 2rem;
+    outline: none;
+}
+#content{
+    margin-top: 2rem;
+}
+#content_input{
+    width: 100%;
+    height: 10rem;
+    margin-bottom: 3rem;
+    resize: vertical;
+    padding: 1rem;
+    font-size: 2rem;
+    outline: none;
+}
+.button_comment{
+    margin-bottom: 5rem;
+}
+.button_comment button{
+    width: 20rem;
+    height: 4rem;
+    background-color: black;
+    color:white;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.comment_card{
+    padding:1rem;
+    border: 0.1rem solid #333;
+    margin-bottom: 4rem;
+}
+.head_card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2.5rem;
+}
+.head_card h3{
+    margin:0;
+    margin-bottom: 1rem;
+}
+.detail_card{
+    width: 100%;
+    font-size: 1.4rem;
+}
+.detail_card span{
+    margin-right: 1rem;
+}
+.content_card p{
+    font-size: 1.5rem;
+}
+.have_more{
+    display: flex;
+    font-size: 1.4rem;
+}
+.have_more p{
+    margin-right: 2rem;
+    margin-bottom: 0;
+    cursor: pointer;
+    color:blue;
+}
+.have_more p:hover{
+    text-decoration: underline;
+}
